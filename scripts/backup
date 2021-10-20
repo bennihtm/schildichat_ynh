@@ -27,7 +27,7 @@ ynh_print_info --message="Backing configuration..."
 # Copy Nginx config
 ynh_backup --src_path "/etc/nginx/conf.d/${domain}.d/${app}.conf"
 
-# Backup element files
+# Backup SchildiChat files
 ynh_print_info --message="Backing up the main app directory..."
 ynh_backup --src_path "/var/www/$app"
 

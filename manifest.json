@@ -1,6 +1,6 @@
 {
-	"name": "Element",
-	"id": "element",
+	"name": "SchildiChat",
+	"id": "schildichat",
 	"packaging_format": 1,
 	"requirements": {
 		"yunohost": ">= 4.2.6.1"
@@ -10,11 +10,11 @@
 		"fr": "Un client web pour matrix"
 	},
 	"version": "1.9.0~ynh1",
-	"url": "https://element.io",
+	"url": "https://schildi.chat",
 	"license": "Apache-2.0",
 	"maintainer": {
-		"name": "Josué Tille",
-		"email": "josue@tille.ch"
+		"name": "Benjamin Hartmann",
+		"email": "hbenjamin@tutanota.de"
 	},
 	"multi_instance": true,
 	"services": [
@@ -26,8 +26,8 @@
 				"name": "domain",
 				"type": "domain",
                                 "ask": {
-					"en": "Choose a domain for Element",
-					"fr": "Choisissez un domaine pour Element"
+					"en": "Choose a domain for SchildiChat",
+					"fr": "Choisissez un domaine pour SchildiChat"
 				},
 				"example": "domain.org"
 			},
@@ -35,11 +35,11 @@
 				"name": "path",
 				"type": "path",
 				"ask": {
-					"en": "Choose a path for Element",
-					"fr": "Choisissez un chemin pour Element"
+					"en": "Choose a path for SchildiChat",
+					"fr": "Choisissez un chemin pour SchildiChat"
 				},
-				"example": "/element",
-				"default": "/element"
+				"example": "/schildichat",
+				"default": "/schildichat"
 			},
 			{
 				"name": "default_home_server",

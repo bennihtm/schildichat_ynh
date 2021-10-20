@@ -23,7 +23,7 @@ Screenshots
 
 SchildiChat is a Matrix client based on Element with a more traditional instant messaging experience.
 
-![](https://schildi.chat/desktop/img/2.png)
+![](https://schildi.chat/desktop/img/1.png)
 
 Demo
 ----
